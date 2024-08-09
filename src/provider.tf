@@ -1,6 +1,4 @@
-provider "gitlab" {
-  token = var.gitlab_token
-}
+provider "gitlab" {}
 
 provider "azurerm" {
   features {
